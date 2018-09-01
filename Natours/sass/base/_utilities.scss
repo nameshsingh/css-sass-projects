@@ -4,14 +4,24 @@
 
 .u-margin-bottom-large {
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+        margin-bottom: 5rem !important;
+    }
 }
 
 .u-margin-bottom-huge {
     margin-bottom: 10rem;
+
+
 }
 
 .u-margin-bottom-medium {
     margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;
+    }
 }
 
 .u-margin-bottom-small {
